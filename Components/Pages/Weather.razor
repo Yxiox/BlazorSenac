@@ -1,0 +1,71 @@
+@page "/temperature"
+@rendermode InteractiveServer
+
+<h3>Temperatura e Humidade</h3>
+<br />
+<button class="btn bg-dark text-light" style="width:50%" @onclick="UpdateTemp">Atualizar</button>
+<br />
+<br />
+<table class="table" style="width:50%">
+    <thead>
+        <tr>
+            <th>Temp. (C)</th>
+            <th>Umidade (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@temperatureC.ToString("F2")</td>
+            <td>@humidity.ToString("F2")</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table" style="width:50%">
+
+    <thead>
+        <tr>
+            <th>Média Temp. (C)</th>
+            <th>Média Umidade (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@mediaTemp.ToString("F2")</td>
+            <td>@mediaHum.ToString("F2")</td>
+        </tr>
+    </tbody>
+</table>
+
+@code {
+    private double temperatureC;
+    private double humidity;
+    private double mediaTemp;
+    private double mediaHum;
+
+    protected override void OnInitialized()
+    {
+        MqttSenac.OnSensorDataUpdated += UpdateWeatherData;
+    }
+
+    private void UpdateWeatherData()
+    {
+
+        // Atualiza os valores locais com os dados recebidos do MqttSenac
+        temperatureC = MqttSenac.Temperature;
+        humidity = MqttSenac.Humidity;
+        mediaTemp = MqttSenac.TempMedia;
+        mediaHum = MqttSenac.HumMedia;
+        // Força a atualização da interface
+        InvokeAsync(() => StateHasChanged());
+    }
+
+    public void Dispose()
+    {
+        MqttSenac.OnSensorDataUpdated -= UpdateWeatherData;
+    }
+    private async Task UpdateTemp()
+    {
+        await MqttSenac.SendUpdateCommandAsync();
+    }
+
+}
