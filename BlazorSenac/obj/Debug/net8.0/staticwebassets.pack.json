@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSenac.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorSenac.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorSenac.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorSenac.props",
+      "PackagePath": "build\\BlazorSenac.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorSenac.props",
+      "PackagePath": "buildMultiTargeting\\BlazorSenac.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorSenac.props",
+      "PackagePath": "buildTransitive\\BlazorSenac.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSenac", "BlazorSenac\BlazorSenac.csproj", "{98125604-387B-4773-BD72-C6B7BEDFFFB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98125604-387B-4773-BD72-C6B7BEDFFFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98125604-387B-4773-BD72-C6B7BEDFFFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98125604-387B-4773-BD72-C6B7BEDFFFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98125604-387B-4773-BD72-C6B7BEDFFFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EDD2035-25D7-43B4-86BD-0C11FF6E0F5A}
+	EndGlobalSection
+EndGlobal

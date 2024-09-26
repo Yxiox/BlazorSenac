@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VQ+EjZUdW8uuudKnzSpI+KPJ/+r1QTZ343pkww6his+0Rkp8LMN5ReCVRFnGzEa38S2Kxos976uNxG7Dam+fKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\BlazorSenac.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yxiox\\.nuget\\packages\\mqttnet\\4.3.7.1207\\mqttnet.4.3.7.1207.nupkg.sha512"
+  ],
+  "logs": []
+}
