@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98125604-387B-4773-BD72-C6B7BEDFFFB2}|BlazorSenac\\BlazorSenac.csproj|c:\\users\\yxiox\\desktop\\projetos e trabalhos\\blazorsenac\\blazorsenac\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98125604-387B-4773-BD72-C6B7BEDFFFB2}|BlazorSenac\\BlazorSenac.csproj|solutionrelative:blazorsenac\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\MessageService.cs",
+              "RelativeDocumentMoniker": "BlazorSenac\\MessageService.cs",
+              "ToolTip": "C:\\Users\\yxiox\\Desktop\\Projetos e Trabalhos\\BlazorSenac\\BlazorSenac\\MessageService.cs",
+              "RelativeToolTip": "BlazorSenac\\MessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T00:46:15.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
